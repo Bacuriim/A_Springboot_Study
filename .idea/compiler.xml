@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="A_Springboot_Study" />
         <module name="Java-api-study" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Design_Patterns" target="1.8" />
+      <module name="Integration_Project_Backend" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
